@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="238dp"
+            android:layout_height="54dp"
+            android:text="Send"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="16dp" />
+        <TextView
+            android:id="@+id/txtReceive"
+            android:layout_width="360dp"
+            android:layout_height="61dp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="30dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
